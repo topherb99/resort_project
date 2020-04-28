@@ -29,7 +29,7 @@ Component {
               <FaAlignRight className="nav-icon"/>
             </button>
           </div>
-          <ul className={this.state.isOpen?"nav-links show-navs":"nav-links"}>
+          <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
             <li>
               <Link to="/">Home</Link>
             </li>
