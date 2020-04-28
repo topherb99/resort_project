@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# RESORT PROJECT
+
+This is my first iteration of creating a react app from scratch with multiple different routes in an e-commerce type fashion. There may be some addition of a transaction API later down the line.
+
+It is important to note that this app has absolutely NO testing framework, this is because I would like to see how the same app differs to another that has been fully tested from the ground up. It will also be important to bear in mind that I will be doing some feature tests as a user otherwise the app will be far harder to complete without any visibility whatsoever.
+
+This website is built in react using JavaScript, JQuery, HTML and CSS and will be deployed on heroku throughout the project (link). As previously mentioned there is no use of a testing suite which means that I will be omitting the use of any kind of CI (continuous integration) i.e. Travis, CircleCI.
+
+### Note on Navbar
+
+I have hard coded the links to 'Home' and 'Rooms' as opposed to creating a constants folder containing these links so that I can prevent repetition. This is because I have no need to put the links anywhere else other than the Navbar itself which will be on every page that the app contains (even the error page).
+
 ## Available Scripts
 
 In the project directory, you can run:
