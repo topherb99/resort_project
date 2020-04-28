@@ -4,7 +4,8 @@ import React from 'react';
 
 function App() {
   return (
-    <>Hello there
+    <>
+      Hello from App page
     </>
   );
 }
