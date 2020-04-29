@@ -1,9 +1,19 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import Banner from '../components/Banner'
+import {Link} from 'react-router-dom'
 
 const Error = () => {
   return (
-    <Hero></Hero>
+    <Hero>
+      <Banner title="404 Error" subtitle="The page you were looking for does not exist">
+
+        <Link to="/" className="btn-primary">
+          Go back home
+        </Link>
+
+      </Banner>
+    </Hero>
   )
 }
 
