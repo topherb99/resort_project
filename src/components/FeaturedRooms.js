@@ -22,6 +22,6 @@ Component {
             </div>
           </section>
         </div>
-      )
+      );
     }
 }
