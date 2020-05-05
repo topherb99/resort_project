@@ -7,8 +7,8 @@ import {RoomContext} from '../Context'
 
 export default class SingleRoom extends Component {
   constructor(props){
-    super(props)
-    console.log(this.props)
+    super(props);
+    console.log(this.props);
   }
   componentDidMount(){
 
