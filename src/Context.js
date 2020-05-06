@@ -20,7 +20,7 @@ class RoomProvider extends Component {
       rooms,
       featuredRooms,
       sortedRooms: rooms,
-      loading: false
+      // loading: false
     })
   }
 
@@ -52,5 +52,10 @@ class RoomProvider extends Component {
 }
 
 const RoomConsumer = RoomContext.Consumer;
+
+
+
+
+
 
 export { RoomProvider, RoomConsumer, RoomContext }
