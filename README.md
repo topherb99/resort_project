@@ -12,6 +12,10 @@ This website is built in react using JavaScript, JQuery, HTML and CSS and will b
 
 I have hard coded the links to 'Home' and 'Rooms' as opposed to creating a constants folder containing these links so that I can prevent repetition. This is because I have no need to put the links anywhere else other than the Navbar itself which will be on every page that the app contains (even the error page).
 
+## Current state
+
+The project is running locally at the time of writing this but this will be updated to provide some kind of SQL database in order to allow for more customisable builds.
+
 ## Available Scripts
 
 In the project directory, you can run:
